@@ -32,7 +32,7 @@ const Contact = () => {
     setStatusMessage("");
 
     try {
-      const response = await fetch("https://portfolio-backend-k8w4.onrender.com/", {
+      const response = await fetch("https://portfolio-backend-k8w4.onrender.com/api/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
