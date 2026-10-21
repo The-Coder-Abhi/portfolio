@@ -33,7 +33,7 @@ const projectsData = [
     description: "A scalable academic organization application built with a reactive UI architecture. Achieved a highly responsive cold-start load time of 959.8ms seamlessly backed by Appwrite BaaS.",
     tech: ["Kotlin", "Jetpack Compose", "Appwrite"],
     githubUrl: "https://github.com/The-Coder-Abhi/NotesLib_AppWrite",
-    liveUrl: "#",
+    liveUrl: "https://github.com/The-Coder-Abhi/NotesLib_AppWrite",
     image: NotesLib, // Add this image import
   },
   {
@@ -51,7 +51,7 @@ const projectsData = [
     description: "A secure native messaging application prioritizing child safety. Engineered with email-based verification, automated parental background monitoring alerts, and a highly efficient 320ms message synchronization speed.",
     tech: ["Java", "XML", "Firebase"],
     githubUrl: "https://github.com/The-Coder-Abhi/ChatZone_New",
-    liveUrl: "#",
+    liveUrl: "https://github.com/The-Coder-Abhi/ChatZone_New",
     image: ChatZone, // Add this image import
   },
   {
