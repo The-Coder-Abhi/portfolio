@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Abhishek Shelar — Full-Stack Software Engineer Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A high-performance, modern developer portfolio built from scratch using **React** and **Custom CSS** (zero Tailwind). Designed with a cohesive dark-mode midnight slate aesthetic, electric cyan accents, and glassmorphism UI patterns, this portfolio showcases my technical expertise, real-world applications, and professional certifications.
 
-## Available Scripts
+🔗 **Live Demo:** [View Portfolio Live](#) *(Add your Vercel URL here once deployed)*
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## ✨ Features & Architecture
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* **Modern Dark-Mode Aesthetic:** Tailored UI featuring deep slate backgrounds (`#090e17`), card containers (`#121927`), and vibrant cyan accents (`#0ab7ea`).
+* **Persistent Glassmorphism Navbar:** Dynamic scroll-state logic with a frosted glass effect and mobile-responsive drawer navigation.
+* **Comprehensive Project Showcase:** Highlights 6 distinct production and in-progress full-stack web and native mobile applications (VerseView, ChatZone, NotesLib, and FinBowl).
+* **Technical Skills Matrix:** Categorized skill grids spanning Frontend, Backend, Mobile Development, Databases/Cloud, and DevOps/Tools.
+* **Professional Credentials Section:** Dedicated display highlighting certifications from Udemy and IIT Kharagpur.
+* **Interactive Contact Section:** Fully responsive layout with location info and an integrated messaging interface.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠️ Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* **Frontend:** React.js, JavaScript (ES6+), HTML5, Custom CSS3, React Icons
+* **Routing & State:** React Router, React Hooks & Context API
+* **Version Control:** Git & GitHub
+* **Deployment:** Vercel
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Featured Projects Included
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **VerseView Broadcasting Bridge:** Real-time data bridge scraping presentation data with 101.2ms synchronization and an auto-scaling React frontend for OBS.
+2. **NotesLib Web Platform:** Document management platform featuring a deep 5-level hierarchy system, in-app PDF viewer, smart access controls, and automated CI/CD deployment.
+3. **NotesLib Mobile App:** Reactive Android application built with Kotlin and Jetpack Compose featuring a 959.8ms cold-start load time and Appwrite BaaS.
+4. **ChatZone Web:** Responsive cross-platform messaging application featuring real-time synchronization via Firebase and Cloudinary media management.
+5. **ChatZone Android:** Secure native Java/XML messaging app focused on child safety with automated parental controls and 320ms sync speed.
+6. **FinBowl Dashboard:** Fintech web application featuring interactive data tables, sticky UI layouts, and global state management.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 📦 Getting Started Locally
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To run this project locally on your machine, follow these steps:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/The-Coder-Abhi/portfolio.gitt](https://github.com/The-Coder-Abhi/portfolio.gitt)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Navigate to the project directory:
+   ```bash
+   cd ChatZone-React
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. Install dependencies:
+   ```bash
+   npm install
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Running the App
+```bash
+  npm start
+```
