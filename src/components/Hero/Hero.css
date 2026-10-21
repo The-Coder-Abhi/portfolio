@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-between;
   min-height: 90vh;
-  padding: 0 10%;
+  padding: 8rem 10% 0 10%;
   font-family: "Inter", sans-serif;
   color: var(--text-primary);
   background-color: var(--bg-dark);

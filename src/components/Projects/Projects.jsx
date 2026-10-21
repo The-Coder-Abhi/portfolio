@@ -14,8 +14,8 @@ const projectsData = [
     title: "VerseView Broadcasting Bridge",
     description: "A real-time data bridge scraping live presentation data with 101.2ms synchronization. Features an auto-scaling React frontend and custom lower-thirds overlays optimized for OBS.",
     tech: ["Node.js", "React", "Firebase", "OBS"],
-    githubUrl: "#",
-    liveUrl: "#",
+    githubUrl: "https://github.com/The-Coder-Abhi/fga-verse-broadcasting",
+    liveUrl: "https://the-coder-abhi.github.io/fga-verse-broadcasting/",
     image: VerseView, // Make sure this is imported at the top
   },
   {
@@ -23,8 +23,8 @@ const projectsData = [
     title: "NotesLib Web Platform",
     description: "A comprehensive document management platform featuring a deep 5-level hierarchy system, an in-app PDF viewer, and custom interactive modals. Engineered with smart access controls and automated CI/CD deployment.",
     tech: ["Angular", "Appwrite", "CI/CD"],
-    githubUrl: "#",
-    liveUrl: "#",
+    githubUrl: "https://github.com/The-Coder-Abhi/noteslib-web-app",
+    liveUrl: "https://the-coder-abhi.github.io/noteslib-web-app/home",
     image: NotesLib_Web, // Add this image import
   },
   {
@@ -32,7 +32,7 @@ const projectsData = [
     title: "NotesLib Mobile App",
     description: "A scalable academic organization application built with a reactive UI architecture. Achieved a highly responsive cold-start load time of 959.8ms seamlessly backed by Appwrite BaaS.",
     tech: ["Kotlin", "Jetpack Compose", "Appwrite"],
-    githubUrl: "#",
+    githubUrl: "https://github.com/The-Coder-Abhi/NotesLib_AppWrite",
     liveUrl: "#",
     image: NotesLib, // Add this image import
   },
@@ -41,8 +41,8 @@ const projectsData = [
     title: "ChatZone Web",
     description: "A fully responsive web version of the ChatZone messaging platform. Powered by React and Firebase for robust real-time cross-platform message syncing and Cloudinary for streamlined media management.",
     tech: ["React.js", "Firebase", "Cloudinary"],
-    githubUrl: "#",
-    liveUrl: "#",
+    githubUrl: "https://github.com/The-Coder-Abhi/ChatZone_WebApp",
+    liveUrl: "https://the-coder-abhi.github.io/ChatZone_WebApp/",
     image: ChatZone_Web, // Add this image import
   },
   {
@@ -50,7 +50,7 @@ const projectsData = [
     title: "ChatZone Android",
     description: "A secure native messaging application prioritizing child safety. Engineered with email-based verification, automated parental background monitoring alerts, and a highly efficient 320ms message synchronization speed.",
     tech: ["Java", "XML", "Firebase"],
-    githubUrl: "#",
+    githubUrl: "https://github.com/The-Coder-Abhi/ChatZone_New",
     liveUrl: "#",
     image: ChatZone, // Add this image import
   },
@@ -59,8 +59,8 @@ const projectsData = [
     title: "FinBowl Dashboard",
     description: "A responsive fintech web application designed to manage complex financial operations. Optimized for heavy datasets with interactive data tables, sticky UI architectures, and global state management via Context API.",
     tech: ["React.js", "React Router", "Context API"],
-    githubUrl: "#",
-    liveUrl: "#",
+    githubUrl: "https://github.com/The-Coder-Abhi/fin-bowl",
+    liveUrl: "https://the-coder-abhi.github.io/fin-bowl/#/rms/disbursement",
     image: FinBowl, // Add this image import
   },
 ];
