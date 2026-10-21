@@ -57,3 +57,16 @@ To run this project locally on your machine, follow these steps:
 ```bash
   npm start
 ```
+
+Open http://localhost:3000 to view it in your browser.
+
+👤 Contact & Connect
+Name: Abhishek Rajesh Shelar
+
+Role: Full-Stack & Android Software Developer
+
+Location: Mumbai, Maharashtra, India
+
+Email: abhishekshelar2003@gmail.com
+
+GitHub: @The-Coder-Abhi

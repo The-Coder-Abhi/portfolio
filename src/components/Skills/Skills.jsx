@@ -15,7 +15,6 @@ import {
 import {
   SiJavascript,
   SiTypescript,
-  SiExpress,
   SiKotlin,
   SiPostgresql,
   SiMongodb,
@@ -23,7 +22,6 @@ import {
   SiAppwrite,
   SiObsstudio,
   SiCplusplus,
-//   SiCsharp,
 } from "react-icons/si";
 import "./Skills.css";
 
