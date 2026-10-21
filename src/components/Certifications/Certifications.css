@@ -1,0 +1,109 @@
+.cert-section {
+  padding: 6rem 10%;
+  background-color: #090e17; 
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+}
+
+/* Matching the left-aligned style of Skills & Contact */
+.cert-header {
+  text-align: left;
+  max-width: 800px;
+  margin: 0 0 4rem 0; 
+}
+
+.cert-grid {
+  display: grid;
+  /* This auto-fit magic is what allows 2 cards to look great now, but perfectly scale to 3, 4, or 6 later */
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 2rem;
+  max-width: 1400px;
+}
+
+.cert-card {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  background-color: #121927;
+  padding: 2rem;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.cert-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(10, 183, 234, 0.4);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3), inset 0 0 20px rgba(10, 183, 234, 0.05);
+}
+
+/* Subtle glow behind the icon */
+.cert-icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  background-color: rgba(10, 183, 234, 0.1);
+  border-radius: 12px;
+  flex-shrink: 0;
+}
+
+.cert-icon {
+  font-size: 1.8rem;
+  color: #0ab7ea;
+}
+
+.cert-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.cert-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin: 0;
+  color: #e2e8f0;
+  line-height: 1.3;
+}
+
+.cert-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  font-size: 0.9rem;
+  color: #94a3b8;
+  font-weight: 500;
+}
+
+.cert-dot {
+  color: #475569;
+  font-size: 0.6rem;
+}
+
+/* Optional link to verify credentials */
+.cert-verify {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  color: #475569;
+  transition: color 0.3s ease;
+}
+
+.cert-card:hover .cert-verify {
+  color: #0ab7ea;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .cert-section {
+    padding: 5rem 5%;
+  }
+
+  .cert-grid {
+    grid-template-columns: 1fr;
+  }
+}

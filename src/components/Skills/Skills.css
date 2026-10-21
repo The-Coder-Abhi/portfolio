@@ -1,0 +1,100 @@
+.skills-section {
+  padding: 6rem 10%;
+  background-color: #090e17; 
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+}
+
+.skills-header {
+  text-align: left;
+  max-width: 700px;
+  margin-bottom: 4rem;
+}
+
+.skills-grid {
+  display: grid;
+  /* Auto-fits columns to handle anywhere from 1 to 5 categories cleanly */
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.skill-card {
+  background-color: #121927;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  padding: 2rem;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(10, 183, 234, 0.4);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3), inset 0 0 20px rgba(10, 183, 234, 0.05);
+}
+
+.skill-card-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.category-icon {
+  font-size: 1.8rem;
+  color: #0ab7ea;
+}
+
+.skill-category-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 0;
+  color: #e2e8f0;
+}
+
+.skill-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 1rem;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  background-color: rgba(255, 255, 255, 0.03);
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: background-color 0.2s ease;
+}
+
+.skill-item:hover {
+  background-color: rgba(10, 183, 234, 0.1);
+  border-color: rgba(10, 183, 234, 0.3);
+}
+
+.skill-icon {
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.skill-name {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #cbd5e1;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .skills-section {
+    padding: 5rem 5%;
+  }
+  
+  .skill-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
