@@ -16,6 +16,7 @@ const Contact = () => {
   });
 
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [statusMessage, setStatusMessage] = useState("");
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -25,18 +26,34 @@ const Contact = () => {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
+    setStatusMessage("");
 
-    // Placeholder for upcoming backend integration
-    console.log("Form Data to be sent to Express backend:", formData);
+    try {
+      const response = await fetch("http://localhost:5000/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
 
-    setTimeout(() => {
-      alert("Backend integration pending. Form data logged to console.");
+      const data = await response.json();
+
+      if (response.ok && data.success) {
+        setStatusMessage("Message sent successfully! I'll get back to you soon.");
+        setFormData({ name: "", email: "", subject: "", message: "" }); // Clear form
+      } else {
+        setStatusMessage(data.error || "Failed to send message.");
+      }
+    } catch (error) {
+      console.error("Error submitting form:", error);
+      setStatusMessage("Server error. Please ensure the backend is running.");
+    } finally {
       setIsSubmitting(false);
-      setFormData({ name: "", email: "", subject: "", message: "" });
-    }, 1000);
+    }
   };
 
   return (
@@ -148,6 +165,13 @@ const Contact = () => {
               {isSubmitting ? "Sending..." : "Send Message"}{" "}
               <FaPaperPlane className="send-icon" />
             </button>
+
+            {/* Add this block to show success/error messages */}
+            {statusMessage && (
+              <p style={{ marginTop: "1rem", color: "var(--accent-cyan)", fontWeight: "500", textAlign: "center" }}>
+                {statusMessage}
+              </p>
+            )}
           </form>
         </div>
       </div>

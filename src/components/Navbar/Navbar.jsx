@@ -12,7 +12,7 @@ const Navbar = () => {
   //Handle scroll effect for glassmorphism background
   useEffect(() => {
     const handleScroll = () => {
-        console.log("Current Scroll Y:", window.scrollY);
+        // console.log("Current Scroll Y:", window.scrollY);
       if (window.scrollY > 50) {
         setscrolled(true);
       } else {
